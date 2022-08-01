@@ -1,0 +1,84 @@
+.contact{
+    padding: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact .form{
+    width: 45%;
+}
+
+.contact .form h2{
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px ;
+    width: 100%;
+}
+
+.contact .form .submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact .form .submit form input, .contact .form .submit form textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #95a5a6;
+    outline: none;
+    margin: 13px 0px;
+}
+
+.contact .form .submit form input:focus, .contact .form .submit form textarea:focus{
+   border: 1px solid #111;
+}
+
+.contact .form .submit form input::placeholder{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.contact .form .submit form textarea::placeholder{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    height: 80%;
+}
+
+.contact .form .submit form  button{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #111;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 13px 0px;
+}
+
+
+.contact .map{
+    width: 45%;
+}
+
+.contact .map h2{
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px ;
+    width: 100%;
+}
+
+.contact .map p{
+    font-size: 1.1rem;
+    color: #212529;
+    padding-bottom: 30px ;
+    width: 100%;
+}
+
+.contact .map p i{
+    color: red;
+    margin-right: 4px;
+}

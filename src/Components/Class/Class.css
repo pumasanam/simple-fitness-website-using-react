@@ -1,0 +1,125 @@
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 8rem;
+}
+
+.class .paragraph{
+    font-size: 1.3rem;
+    color: #95a5a6;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.class .classmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class .h2{
+    font-size: 2.2rem;
+    color: #222;
+    padding-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.class .classmenu  .team1{
+    width: 32%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.01),
+    0 4.4px 10px rgba(0, 0, 0, 0.015), 0 10.6px 24.1px
+    rgba(0, 0, 0, 0.02), 0 35px 80px rgba(0, 0, 0, 0.03) ;
+   
+}
+
+.class .classmenu  .team1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.class .classmenu  .team1 .teamdetails .name,.class .classmenu  .team1 .teamdetails .pro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.class .classmenu  .team1 .teamdetails .name h4{
+    color: #212529;
+    font-size: 1.5rem;
+}
+
+.class .classmenu  .team1 .teamdetails .name i,.class .classmenu  .team1 .teamdetails .pro i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #212529;
+}
+
+.class .classmenu  .team1 .teamdetails .pro p{
+    color: #212529;
+  
+}
+
+.class .classmenu  .team1 .teamdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.class .classmenu  .team1 .teamdetails .name{
+    padding: 5px 20px 0px 20px;
+}
+
+.class .classmenu  .team1 .teamdetails .pro{
+    padding: 0 20px 5px 20px;
+}
+
+.class .classmenu  .team1 .teamdetails .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class .classmenu  .team1 .teamdetails .name .namedetails h4{
+    color: #212529;
+    font-size: 1.7rem;
+}
+
+.class .classmenu  .team1 .teamdetails .name .namedetails p{
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+.class .classmenu  .team1 .teamdetails .name .namedetails p span{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.class .classmenu  .team1 .teamdetails .name .num h5{
+    font-family: 1rem;
+    background-color: #f13a11;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+}
+.class .classmenu  .team1 .pro{
+    padding: 15px 30px 30px 30px;
+}
+
+.class .classmenu  .team1 .pro p{
+    font-size: 1.1rem;
+    color: #666262;
+}

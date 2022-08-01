@@ -1,0 +1,77 @@
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem;
+    background-color: #171819;
+}
+
+.details h3,h6,h5{
+    color: white;
+}
+
+.details .one, .two{
+    width: 45%;
+    
+}
+
+.details .one{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.details .one h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+
+.details .one h6{
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.details .one p{
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+    color: #666262;
+    padding-bottom: 3rem;
+}
+
+.details .one button{
+    color: white;
+    background-color: #f13a11;
+    padding: 1rem 0.3rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.details .one button:hover{
+    background-color: white;
+    color: #f13a11;
+}
+
+.details .two h3{
+    font-size: 2.5rem;
+}
+
+.details .two h5{
+    font-size: 1.1rem;
+}
+
+.details .two p{
+    font-size: 1.1rem;
+    color: #666262;
+    margin-bottom: 0.8rem;
+}
+
+.details .two{
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}

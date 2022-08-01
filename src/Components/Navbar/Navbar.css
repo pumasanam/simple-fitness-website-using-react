@@ -1,0 +1,135 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background-color: #222;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav h2{
+    color: #fff;
+    font-size: 1.7rem;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.item li .nav_link{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.item li .nav_link:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.icon .fa{
+    color: white;
+    font-weight: bolder;
+    padding-right: 30px;
+    transition: 0.3s ease;
+
+}
+
+.icon .fa:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+
+
+.back{
+    background-image: url(./../img/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay{
+    background-color: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.mid .button{
+    margin-top: 2rem;
+}
+
+.mid .button button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.mid .button button.simple{
+    color: #fff;
+    padding: 0.9rem 1.6rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.mid .button button.simple:hover{
+    color: #ff5733;
+}
+
+.mid .button button.border{
+    color: #ff5733;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.mid .button button.border:hover{
+    background-color: white;
+    border: 1px solid #fff;
+}
+
+.ToggleIcon i{
+    color: #ff5733;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+ .ToggleIcon{
+    display: none;
+} 
